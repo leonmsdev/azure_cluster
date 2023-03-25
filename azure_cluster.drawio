@@ -1,9 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T11:38:49.488Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="21.1.1" etag="Y1LbmCK5QyYKGSsX0eHD" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T12:25:25.591Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="gCvwNHR1UjnrM_ZDJMpg" version="21.1.1" type="github">
   <diagram name="Seite-1" id="oWOuU8_M-tRmgAgubtK7">
-    <mxGraphModel>
+    <mxGraphModel dx="1030" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wivunIpu-IDwNCwmUR7j-47" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=1;fillStyle=auto;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="730" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-2" value="storage account&lt;br&gt;terraform state" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Azure_HCP_Cache.svg;" vertex="1" parent="1">
+          <mxGeometry x="650" y="248" width="68" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-6" target="wivunIpu-IDwNCwmUR7j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/File.svg;" vertex="1" parent="1">
+          <mxGeometry x="660" y="118" width="44.29" height="54.57" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-5" target="wivunIpu-IDwNCwmUR7j-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-5" target="wivunIpu-IDwNCwmUR7j-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-5" value="Azure subscribtion" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250.5" width="76.15" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-3" target="wivunIpu-IDwNCwmUR7j-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574" y="230" as="sourcePoint" />
+            <mxPoint x="574" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-6" value="terraform plan file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="654" y="188" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-9" target="wivunIpu-IDwNCwmUR7j-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-9" value="vm kubernetes&lt;br&gt;controler" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/AVS_VM.svg;" vertex="1" parent="1">
+          <mxGeometry x="185.01" y="460" width="68" height="62.8" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-10" target="wivunIpu-IDwNCwmUR7j-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-10" value="vm kubernetes&lt;br&gt;worker node" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/AVS_VM.svg;" vertex="1" parent="1">
+          <mxGeometry x="363.15" y="460" width="68" height="62.8" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-11" target="wivunIpu-IDwNCwmUR7j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-11" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Disk_Encryption_Sets.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="467" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.057;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-12" target="wivunIpu-IDwNCwmUR7j-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-12" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Disk_Encryption_Sets.svg;" vertex="1" parent="1">
+          <mxGeometry x="520" y="472" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-18" value="resource groupe&lt;br&gt;kubernetes" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="1">
+          <mxGeometry x="286.83" y="349" width="42.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/operating-system-flat-1/30/ubuntu-128.png" vertex="1" parent="1">
+          <mxGeometry x="240" y="450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/operating-system-flat-1/30/ubuntu-128.png" vertex="1" parent="1">
+          <mxGeometry x="420" y="450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-24" target="wivunIpu-IDwNCwmUR7j-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-24" value="client secret" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="1">
+          <mxGeometry x="513.94" y="139" width="51.51" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-26" target="wivunIpu-IDwNCwmUR7j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-26" value="app registration&lt;br&gt;auth-github-action" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/App_Registrations.svg;" vertex="1" parent="1">
+          <mxGeometry x="520" y="259" width="39.38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-31" target="wivunIpu-IDwNCwmUR7j-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-31" target="wivunIpu-IDwNCwmUR7j-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-31" value="federated secret&lt;br&gt;GitHub repo" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key.svg;" vertex="1" parent="1">
+          <mxGeometry x="440" y="144" width="24.8" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.58;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wivunIpu-IDwNCwmUR7j-34" target="wivunIpu-IDwNCwmUR7j-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-34" value="Github actions" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/socialcones/508/Github-128.png" vertex="1" parent="1">
+          <mxGeometry x="284.00000000000006" y="10" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-40" value="authenticate Github Actions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="390" y="259" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-41" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="558" y="248" width="11" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-42" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="558" y="133" width="11" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-43" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="714" y="248" width="11" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-44" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="335.1500000000001" y="349" width="11" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="wivunIpu-IDwNCwmUR7j-49" value="Azure&amp;nbsp;Infrastruktur" style="text;strokeColor=none;fillColor=none;html=1;fontSize=19;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="85.01" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
