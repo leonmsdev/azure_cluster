@@ -12,6 +12,12 @@ jobs:
     name: Terraform
     runs-on: ubuntu-latest
     steps:
+      #auth to azure project
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
       # Checkout the code from the pull request
       - name: Checkout code
         uses: actions/checkout@v2

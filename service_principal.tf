@@ -1,0 +1,1 @@
+#az ad sp create-for-rbac --name auth-github-action --role contributor --scopes /subscriptions/0f9a248c-ded7-4992-95f7-33fbbfd4c865
