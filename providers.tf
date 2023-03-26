@@ -15,6 +15,12 @@ terraform {
       version = "~>4.0"
     }
   }
+  backend "azurerm" {
+      resource_group_name  = "kubernetes"
+      storage_account_name = "tfstatedefault"
+      container_name       = "tfstate"
+      key                  = "terraform.tfstate"
+  }
 }
 
 provider "azurerm" {

@@ -8,3 +8,6 @@ output "tls_private_key" {
 }
 
 
+output "terraform-space" {
+  value = terraform.workspace
+}

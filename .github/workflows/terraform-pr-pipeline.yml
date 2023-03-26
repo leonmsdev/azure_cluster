@@ -24,11 +24,7 @@ jobs:
             tenant-id: ${{ secrets.AZURE_TENANT_ID }}
             subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
     
-      - name: 'Run Azure CLI commands'
-        run: |
-            az account show
-            az group list
-            pwd 
+
 
       # Checkout the code from the pull request
       - name: Checkout code
