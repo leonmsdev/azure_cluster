@@ -1,0 +1,5 @@
+vm:
+  - name: controle-plane
+    size: Standard_B2s
+  - name: worker-node-01
+    size: Standard_B2s

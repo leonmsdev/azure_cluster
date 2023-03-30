@@ -1,0 +1,29 @@
+terraform {
+  required_version = ">=0.12"
+
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = ">= 3.7.0"
+    }
+    random = {
+      source  = "hashicorp/random"
+      version = "~>3.0"
+    }
+    tls = {
+      source  = "hashicorp/tls"
+      version = "~>4.0"
+    }
+  }
+  backend "azurerm" {
+      resource_group_name  = "kubernetes"
+      storage_account_name = "tfstatedefault"
+      container_name       = "tfstate"
+      key                  = "terraform.tfstate"
+      use_oidc             = true
+  }
+}
+
+provider "azurerm" {
+  use_oidc = true
+}
